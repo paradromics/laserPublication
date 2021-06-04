@@ -1,3 +1,4 @@
 *.svs filter=lfs diff=lfs merge=lfs -text
 *.continuous filter=lfs diff=lfs merge=lfs -text
 *.events filter=lfs diff=lfs merge=lfs -text
+*.fd filter=lfs diff=lfs merge=lfs -text
