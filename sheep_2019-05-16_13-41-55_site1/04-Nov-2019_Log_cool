@@ -1,0 +1,17 @@
+Firing up parallel cluster... Done
+
+Experiment (1/1)...
+File /Volumes/NeuralData/Commercial/UCDavis/20190516/Data/RawData/sheep_2019-05-16_13-41-55_site1/sheep_2019-05-16_13-41-55_site1.h5...
+Copying file as TemporaryFile.h5 to temporary folder on SSD...
+^C
+^C^C^C^Ccp /Volumes/NeuralData/Commercial/UCDavis/20190516/Data/RawData/sheep_2019-05-16_13-41-55_site1/sheep_2019-05-16_13-41-55_site1.h5 cool_04-Nov-2019/TemporaryFile.h5: Interrupt
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dos', '/Applications/MATLAB_R2019b.app/toolbox/matlab/general/dos.m', 67)" style="font-weight:bold">dos</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2019b.app/toolbox/matlab/general/dos.m',67,0)">line 67</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SortingHat', '/Users/harbi/Documents/MATLAB/sorting-hat/MatlabScripts/Wrappers/SortingHat.m', 86)" style="font-weight:bold">SortingHat</a> (<a href="matlab: opentoline('/Users/harbi/Documents/MATLAB/sorting-hat/MatlabScripts/Wrappers/SortingHat.m',86,0)">line 86</a>)
+        status = system(sprintf('%s %s %s',copyStr,filePath,tempFile_fn));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RunAnalysis', '/Users/harbi/Documents/MATLAB/sorting-hat/MatlabScripts/Wrappers/RunAnalysis.m', 173)" style="font-weight:bold">RunAnalysis</a> (<a href="matlab: opentoline('/Users/harbi/Documents/MATLAB/sorting-hat/MatlabScripts/Wrappers/RunAnalysis.m',173,0)">line 173</a>)
+        SortingHat(TH,... Scalar Threshold to Vrms
+} 
+RunAnalysis('cool',3.5)
